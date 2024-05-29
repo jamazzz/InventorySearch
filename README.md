@@ -7,9 +7,10 @@ This Python script scans through your ox_inventory folder to identify image file
 
 2. Locate the configuration section within the Python file and update the path to your inventory accordingly. Ensure that the path points to the correct location of your inventory data.
 
-3. **Run with Visual Studio Code**:
-   - If you're using Visual Studio Code, simply press **F5** to start debugging.
-   - If the script doesn't execute as expected, you might need to install a Python extension for debugging.
+3. ** How to run ** 
+- If you're using Visual Studio Code, simply press **F5** to start debugging. If the script doesn't execute as expected, you might need to install a Python extension for debugging.
+- Alternatively, open the command prompt and run `python InventorySearch.py`.
+
 
 # Requirements
 
