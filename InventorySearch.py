@@ -15,8 +15,8 @@ desktop = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
 itemsPath = inventoryPath+'/data/items.lua' if inventoryType == 'ox_inventory' else corePath+'/shared/items.lua' # Path to the items folder
 weaponsPath = inventoryPath+'/data/weapons.lua' if inventoryType == 'ox_inventory' else corePath+'/shared/weapons.lua' # Path to the weapons folder
 imagePath = inventoryPath+'/web/images' if inventoryType == 'ox_inventory' else inventoryPath+'/html/images' # Path to the images folder
-missingPath = desktop+'/missing.txt' # Path to the missing txt file
 extrasPath = desktop+'/extras' # Path to the new extra images folder
+missingPath = extrasPath+'/missing.txt' # Path to the missing txt file
 
 missingPath = missingPath.replace('\\', '/')
 extrasPath = extrasPath.replace('\\', '/')
