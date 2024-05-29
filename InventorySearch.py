@@ -4,8 +4,8 @@ import shutil
 
 ######### CONFIG ##########
 
-inventoryPath = 'C:/Users/Duart/Desktop/ox_inventory' # Path to the inventory folder (Needs to use / instead of \)
-corePath = 'C:/Users/Duart/Desktop/qb-core' # QB ONLY # Path to the core folder (Needs to use / instead of \)
+inventoryPath = '' # Path to the inventory folder (Needs to use / instead of \)
+corePath = '' # QB ONLY # Path to the core folder (Needs to use / instead of \)
 
 #### DO NOT EDIT BELOW ####
 
